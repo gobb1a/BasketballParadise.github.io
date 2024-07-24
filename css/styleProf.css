@@ -1,0 +1,60 @@
+body {
+    font-family: 'arial', sans-serif; 
+    margin: 0;
+    background-color: #fffdfa;
+}
+
+.logo {
+    width: 100%; /* Занимает всю ширину сайта */
+    text-align: center; /* Центрирует изображение внутри контейнера */ 
+}
+.logo img {
+    width:234px; /* Размер изображения */
+    height: 150px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f84f0e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-container label {
+    margin-bottom: 5px;
+}
+
+.login-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    padding: 10px;
+    background-color: #fffdfa;
+    color: #f84f0e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #fff;
+}
